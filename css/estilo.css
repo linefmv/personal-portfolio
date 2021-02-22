@@ -1,9 +1,8 @@
-
 *{ 
     box-sizing: border-box;
     margin: 0;
     font-family: 'Raleway', sans-serif; 
-  }
+}
 
  .banner{ 
     background: url(../img/banner-bg.png) center no-repeat; 
@@ -20,7 +19,6 @@
      flex-direction: column; 
      justify-content: center; 
      align-items: center; 
-     
 }
 
 .banner_titulo{
@@ -31,21 +29,21 @@
 .banner_subtitulo{
     font-size: 2.3rem;
     margin-top: 1.5rem;
-    color:black;
+    color: black;
 }
 
 .btn {
     border-radius: 3rem;
     text-transform: uppercase;
     padding: 0.5rem 2rem; 
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: bold;
     margin-top: 1.56rem;
 }
 
 .btn-branco {
     background-color: white;
-    color: rgb(92, 63, 223); 
+    color:  rgb(133, 132, 221); 
     text-decoration: none;
     border: 1px solid black;
     margin-top: 10px;
@@ -61,7 +59,7 @@
 
 .sobre__titulo {
     font-size: 2.5rem;
-    color: black;
+    color:  rgb(133, 132, 221);
     text-align: center; 
     margin: 2rem;
 }
@@ -74,22 +72,24 @@
 }
 
 .btn-roxo {
-    color:  rgb(92, 63, 223);
+    color:   rgb(133, 132, 221);
     text-align: left;
     border: 1px solid black;
     text-decoration: none; 
     margin-top: 60px;
     margin:0 20% 0%;
     align-items: center;
-;}
+}
 
 .sobre-habilidades__titulo{
-    color:rgb(92, 63, 223);
+    color: rgb(133, 132, 221);
 }
+
 .my-name {
-    color:rgb(92, 63, 223);
+    color: rgb(133, 132, 221);
     font-weight: bold;
 }
+
 ./* Redes Sociais*/
 #footer-redes-sociais {
     text-align: center;
@@ -106,7 +106,8 @@
     color: white;
     margin-left: 175px;
     border-radius: 1.5rem;
-    border: 1px solid rgb(0, 0, 0) 
+    border: 1px solid rgb(0, 0, 0);
+    text-decoration:none;
 }
 
 .redes-sociais__img, .redes-sociais__titulo {
