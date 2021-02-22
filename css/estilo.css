@@ -55,14 +55,16 @@
 }
 
 .sobre__titulo {
-    font-size: 4rem;
+    font-size: 3rem;
     color: #c4c4c4;
     text-align: center; 
+    margin: 2rem;
 }
 
 .sobre-descricao, .sobre-habilidades {
     width: 40%;
-    padding-bottom: 100px;
+    line-height: 1.8;
+    padding-bottom: 90px;
 }
 
 .btn-roxo {
@@ -70,36 +72,34 @@
     text-align: left;
     border: 1px solid #7E459B;
     text-decoration: none; 
-    margin-top: 20px;
-}
-.midias-sociais_container {
-    max-width: 1080px;
-    margin: 0 auto;
-}
-
-
-.text-rede-social {
-    background-color: royalblue;
-}
-.midias-sociais__container {
-    text-align: center;
-    width: 20%;
-    height:150px;
-    background-color: #cf96b3;
-    margin: 0 1rem;
-    margin-left:95px;
-    text-align: center;
-
-}
-.display-flex {
-    display: flex;
-    justify-content: space-between;
+    margin-top: 60px;
+    margin:20%;
     align-items: center;
+;}
+./* Redes Sociais*/
+
+.footer {
+    text-align: center;
 }
 
-.midias-sociais__container-img {
-    margin-bottom: 20px;
-    width: 50px;
-    transition: all 1s linear
+.redes-sociais__link {
+    display: inline-block;
+    left: 20%;
+    width: 20%;
+    background-color: #7E459B;
+    padding: 2rem 0;
+    margin: 0 1rem;
+    text-align: center;
+    color: white;
+}
+.redes-sociais__img, .redes-sociais__titulo {
+    margin-bottom: .5rem;
 }
 
+.footer__copy-texto {
+    color: #c4c4c4;
+    font-weight: lighter;
+    margin-top: 3rem;
+    padding: 1rem;
+    padding-bottom: 200px;
+}
