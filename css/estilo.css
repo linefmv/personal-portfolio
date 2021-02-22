@@ -24,11 +24,13 @@
 }
 
 .banner_titulo{
-    font-size: 5rem;
+    font-size: 3.5rem;
 }
 
 .banner_subtitulo{
     font-size: 2.3rem;
+    margin-top: 1.5rem;
+
 }
 
 .btn {
@@ -45,6 +47,7 @@
     color: rgb(92, 63, 223); 
     text-decoration: none;
     border: 1px solid;
+    margin-top: 10px;
 }
 
 /* sobre container */
@@ -63,15 +66,16 @@
 }
 
 .sobre-descricao, .sobre-habilidades {
-    width: 30%;
+    width: 40%;
     line-height: 2.5;
     padding-bottom: 75px;
+    margin-left: 10%;
 }
 
 .btn-roxo {
-    color: #EFA693;
+    color:  rgb(92, 63, 223);
     text-align: left;
-    border: 1px solid #7E459B;
+    border: 1px solid #efa693;;
     text-decoration: none; 
     margin-top: 60px;
     margin:20%;
