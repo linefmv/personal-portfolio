@@ -11,7 +11,6 @@
     height: 90vh; 
     padding-top:20rem; 
     text-align: center; 
-    color: rgb(133, 132, 221); 
 }
          
 .container{ 
@@ -21,16 +20,18 @@
      flex-direction: column; 
      justify-content: center; 
      align-items: center; 
+     
 }
 
 .banner_titulo{
     font-size: 3.5rem;
+    color: rgb(133, 132, 221); 
 }
 
 .banner_subtitulo{
     font-size: 2.3rem;
     margin-top: 1.5rem;
-
+    color:black;
 }
 
 .btn {
@@ -46,7 +47,7 @@
     background-color: white;
     color: rgb(92, 63, 223); 
     text-decoration: none;
-    border: 1px solid;
+    border: 1px solid black;
     margin-top: 10px;
 }
 
@@ -60,7 +61,7 @@
 
 .sobre__titulo {
     font-size: 2.5rem;
-    color: #c4c4c4;
+    color: black;
     text-align: center; 
     margin: 2rem;
 }
@@ -75,14 +76,21 @@
 .btn-roxo {
     color:  rgb(92, 63, 223);
     text-align: left;
-    border: 1px solid #efa693;;
+    border: 1px solid black;
     text-decoration: none; 
     margin-top: 60px;
-    margin:20%;
+    margin:0 20% 0%;
     align-items: center;
 ;}
-./* Redes Sociais*/
 
+.sobre-habilidades__titulo{
+    color:rgb(92, 63, 223);
+}
+.my-name {
+    color:rgb(92, 63, 223);
+    font-weight: bold;
+}
+./* Redes Sociais*/
 #footer-redes-sociais {
     text-align: center;
 }
@@ -91,14 +99,14 @@
     display: inline-block;
     width: 15%;
     height: 170px;
-    background-color: #7E459B;
+    background-color: rgb(133, 132, 221);
     padding: 2rem 0;
     margin: 0 1rem;
     text-align: center;
     color: white;
     margin-left: 175px;
     border-radius: 1.5rem;
-    border: 1px solid rgb(179, 136, 136) 
+    border: 1px solid rgb(0, 0, 0) 
 }
 
 .redes-sociais__img, .redes-sociais__titulo {
