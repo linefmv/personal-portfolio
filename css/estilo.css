@@ -49,6 +49,12 @@
     margin-top: 10px;
 }
 
+a:hover {
+    background-color:  rgb(101, 36, 138); 
+    color:white;
+    cursor: pointer;
+    border: 0;
+}
 /* sobre container */
 
 .sobre-container {
@@ -94,6 +100,11 @@
 #footer-redes-sociais {
     text-align: center;
 }
+.redes-sociais__link:hover { 
+    background-color: rgb(101, 36, 138); 
+    color:rgb(245, 245, 255);
+    border: 0;
+}
 
 .redes-sociais__link {
     display: inline-block;
@@ -106,7 +117,7 @@
     color: white;
     margin-left: 175px;
     border-radius: 1.5rem;
-    border: 1px solid rgb(0, 0, 0);
+    border: 0px solid rgb(0, 0, 0);
     text-decoration:none;
 }
 
