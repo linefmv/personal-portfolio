@@ -125,7 +125,7 @@ a:hover {
     height: auto;
 }
 .projects__titulo {
-
+    border-top: 1px solid rgb(228, 216, 216);
 }
 ./* Redes Sociais*/
 #footer-redes-sociais {
