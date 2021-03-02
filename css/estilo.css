@@ -96,19 +96,31 @@ a:hover {
     font-weight: bold;
 }
 /* projects */ 
+.starprojects { 
+    font-size: 2.5rem;
+    color:  rgb(133, 132, 221);
+    text-align: center; 
+    margin: 1.5rem;
+}
+.about_projects {
+    text-align: center;
+    margin-bottom: 20px;
+    font: 1.5rem;
+}
 
 #projects {
     display:flex;
     flex-direction: row;
     justify-content: space-around;
     margin-bottom: 82px;
-
 }
+
 .projects__link:hover { 
     border: 0;
-    opacity: 0;
-  transition: .5s ease;
-  background-color: #24a2cc;
+    opacity: 0.4;
+    transition: .5s ease;
+    background-color: rgb(133, 132, 221);
+    transform: scale(1.2)
 }
 
 .projects__link {
@@ -116,8 +128,8 @@ a:hover {
     text-align: center;
     text-decoration: none;
     border: 0.5px solid rgb(228, 216, 216);
-  margin-right: 5px;
-  margin-left: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
 }
 
 .projects__img {
@@ -127,7 +139,8 @@ a:hover {
 .projects__titulo {
     border-top: 1px solid rgb(228, 216, 216);
 }
-./* Redes Sociais*/
+
+/* Redes Sociais*/
 #footer-redes-sociais {
     text-align: center;
 }
