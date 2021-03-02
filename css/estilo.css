@@ -95,7 +95,38 @@ a:hover {
     color: rgb(133, 132, 221);
     font-weight: bold;
 }
+/* projects */ 
 
+#projects {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 82px;
+
+}
+.projects__link:hover { 
+    border: 0;
+    opacity: 0;
+  transition: .5s ease;
+  background-color: #24a2cc;
+}
+
+.projects__link {
+    padding: 2px;
+    text-align: center;
+    text-decoration: none;
+    border: 0.5px solid rgb(228, 216, 216);
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.projects__img {
+    width: 100%;
+    height: auto;
+}
+.projects__titulo {
+
+}
 ./* Redes Sociais*/
 #footer-redes-sociais {
     text-align: center;
