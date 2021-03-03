@@ -45,16 +45,16 @@
     background-color: white;
     color:  rgb(133, 132, 221); 
     text-decoration: none;
-    border: 1px solid black;
+    border: 1px solid grey;
     margin-top: 10px;
 }
-
-a:hover {
-    background-color:  rgb(101, 36, 138); 
+.btn:hover {
+     background-color:  rgb(101, 36, 138); 
     color:white;
     cursor: pointer;
     border: 0;
 }
+
 /* sobre container */
 
 .sobre-container {
@@ -63,7 +63,7 @@ a:hover {
     justify-content: space-evenly;
 }
 
-.sobre__titulo {
+#sobre__titulo {
     font-size: 2.5rem;
     color:  rgb(133, 132, 221);
     text-align: center; 
@@ -80,7 +80,7 @@ a:hover {
 .btn-roxo {
     color:   rgb(133, 132, 221);
     text-align: left;
-    border: 1px solid black;
+    border: 1px solid grey;
     text-decoration: none; 
     margin-top: 60px;
     margin:0 20% 0%;
@@ -138,48 +138,32 @@ a:hover {
 }
 .projects__titulo {
     border-top: 1px solid rgb(228, 216, 216);
+    color:rgb(133, 132, 221);
+}
+.projects_subtitulo{
+    color: rgb(80, 79, 79);
 }
 
 /* Redes Sociais*/
 #footer-redes-sociais {
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 .redes-sociais__link:hover { 
-    background-color: rgb(101, 36, 138); 
-    color:rgb(245, 245, 255);
-    border: 0;
+    transform: scale(1.2)
 }
 
-.redes-sociais__link {
-    display: inline-block;
-    width: 15%;
-    height: 170px;
-    background-color: rgb(133, 132, 221);
-    padding: 2rem 0;
-    margin: 0 1rem;
-    text-align: center;
-    color: white;
-    margin-left: 175px;
-    border-radius: 1.5rem;
-    border: 0px solid rgb(0, 0, 0);
-    text-decoration:none;
-}
-
-.redes-sociais__img, .redes-sociais__titulo {
-    margin-bottom: .5rem;
-}
-
-.footer__copy-texto {
-    color: #c4c4c4;
-    font-weight: lighter;
-    margin-top: 3rem;
-    padding: 1rem;
-    padding-bottom: 200px;
+.redes-sociais__img {
+    height: 15px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 20px;
 }
 
 .ultimafrase {
-    margin-top:80px;
-    margin-bottom: 80px;
+    margin-top:140px;
+    margin-bottom: 10px;
+    padding: 10;
     text-align: center;
     color: grey;
 }
