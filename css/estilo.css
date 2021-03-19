@@ -4,10 +4,14 @@
     font-family: 'Raleway', sans-serif; 
 }
 header {
-    background-color: #A887BE;
-    height: 8vh; 
+    background-color: #D1BEDD;
+    height: 30vh; 
 }
-
+.header__img{
+    height: 29vh; 
+    width: 80vh;
+    margin-left: 65vh;
+}
  .banner{ 
     background: url(../img/banner-bg3.png) center no-repeat; 
     background-size:cover; 
@@ -71,12 +75,13 @@ header {
     color:  rgb(133, 132, 221);
     text-align: center; 
     margin: 2rem;
+    margin-top: 7vh;
 }
 
 .sobre-descricao, .sobre-habilidades {
     width: 40%;
     line-height: 2.5;
-    padding-bottom: 75px;
+    padding-bottom: 10px;
     margin-left: 10%;
 }
 
@@ -164,7 +169,7 @@ header {
 }
 
 .ultimafrase {
-    margin-top:140px;
+    margin-top:110px;
     margin-bottom: 10px;
     padding: 10;
     text-align: center;
