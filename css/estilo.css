@@ -3,12 +3,16 @@
     margin: 0;
     font-family: 'Raleway', sans-serif; 
 }
+header {
+    background-color: #A887BE;
+    height: 8vh; 
+}
 
  .banner{ 
     background: url(../img/banner-bg3.png) center no-repeat; 
     background-size:cover; 
-    height: 90vh; 
-    padding-top:20rem; 
+    height: 60vh; 
+    padding-top:12rem; 
     text-align: center; 
 }
          
@@ -34,7 +38,6 @@
 
 .btn {
     border-radius: 3rem;
-    text-transform: uppercase;
     padding: 0.5rem 2rem; 
     font-size: 1.3rem;
     font-weight: bold;
@@ -120,9 +123,8 @@
     opacity: 0.4;
     transition: .5s ease;
     background-color: rgb(133, 132, 221);
-    transform: scale(1.2)
+    transform: scale(1.2);
 }
-
 .projects__link {
     padding: 2px;
     text-align: center;
@@ -136,6 +138,7 @@
     width: 100%;
     height: auto;
 }
+
 .projects__titulo {
     border-top: 1px solid rgb(228, 216, 216);
     color:rgb(133, 132, 221);
