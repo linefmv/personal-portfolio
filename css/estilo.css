@@ -147,13 +147,13 @@ header {
     margin-left: 5px;
 }
 
-.projects__link {
-    padding: 2px;
+.projectsLinkSecondLine{
+    padding: 10px;
     text-align: center;
     text-decoration: none;
     border: 0.5px solid rgb(228, 216, 216);
-    margin-right: 5px;
-    margin-left: 5px;
+    margin-right: 3px;
+    margin-left: 3px;
 }
 
 .projects__img {
