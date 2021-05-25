@@ -122,6 +122,13 @@ header {
     justify-content: space-around;
     margin-bottom: 82px;
 }
+#projectsSeconLine{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 82px;
+}
+
 
 .projects__link:hover { 
     border: 0;
@@ -140,8 +147,21 @@ header {
     margin-left: 5px;
 }
 
+.projects__link {
+    padding: 2px;
+    text-align: center;
+    text-decoration: none;
+    border: 0.5px solid rgb(228, 216, 216);
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
 .projects__img {
     width: 100%;
+    height: auto;
+}
+.projects_img_second_line{
+    width: 40%;
     height: auto;
 }
 
@@ -149,9 +169,10 @@ header {
     border-top: 1px solid rgb(228, 216, 216);
     color:rgb(133, 132, 221);
 }
-.projects_subtitulo{
+.projects__subtitulo{
     color: rgb(80, 79, 79);
 }
+
 
 /* Redes Sociais*/
 #footer-redes-sociais {
@@ -169,9 +190,10 @@ header {
     margin-bottom: 20px;
 }
 
+
 .ultimafrase {
     margin-top:110px;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
     padding: 10;
     text-align: center;
     color: grey;
