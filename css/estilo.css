@@ -125,11 +125,12 @@ header {
 
 .projects__link:hover { 
     border: 0;
-    opacity: 0.4;
-    transition: .5s ease;
-    background-color: rgb(133, 132, 221);
+    opacity: .4;
+    transition: .4s linear;
+    background-color: rgb(20, 17, 230);
     transform: scale(1.2);
 }
+
 .projects__link {
     padding: 2px;
     text-align: center;
