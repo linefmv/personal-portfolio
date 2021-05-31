@@ -6,4 +6,4 @@ Para acessá-lo você pode clicar [aqui](https://linefmv.github.io/personal-port
                 
 ✨
 
-- Você também pode me contatar através do meu email: igorzinho ou do meu linkedin: [aqui] (https://www.linkedin.com/in/viana-aline/). 
+- Você também pode me contatar através do meu email: alinemaciel018@gmail.com ou do meu linkedin: [aqui] (https://www.linkedin.com/in/viana-aline/). 
