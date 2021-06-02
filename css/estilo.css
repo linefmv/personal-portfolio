@@ -3,10 +3,6 @@
     margin: 0;
     font-family: 'Raleway', sans-serif; 
 }
-header {
-    background-color: #D1BEDD;
-    height: 30vh; 
-}
 .header__img{
     height: 29vh; 
     width: 80vh;
