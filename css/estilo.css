@@ -10,6 +10,10 @@ nav {
     font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
     background: #5c4166;
     height: 8vh;
+    position: fixed; 
+    top: 0;
+    width: 100%;
+  }
 }
 .logo {
   letter-spacing: 3px;
