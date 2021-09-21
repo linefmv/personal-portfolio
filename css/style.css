@@ -113,17 +113,25 @@ main {
 .entrance {
   color: white;
 }
+h1 {
+  margin-left: 19vh;
+  font-family: "Amatic SC", cursive;
+  font-size: 4rem;
+}
 #nameAndPhrase {
   margin: 4vh 10vh 0 20vh;
   line-height: 8vh;
+  font-size: 1.2rem;
+  font-family: "Open Sans Condensed", sans-serif;
 }
-h1 {
-  margin-left: 21vh;
-}
+
 #adressAndContact {
-  margin: 2vh 10vh 0 20vh;
+  margin: 2vh 10vh 0 40vh;
   line-height: 10vh;
+  font-size: 1.2rem;
+  font-family: "Open Sans Condensed", sans-serif;
 }
+
 .entranceIMG {
   margin: 3vh;
   width: 53vh;
@@ -136,12 +144,14 @@ h1 {
 }
 /* projects */
 section {
-  background-color: rgb(240, 227, 253);
+  background-color: rgb(255 235 187);
 }
 .starprojects {
-  font-size: 2.5rem;
-  color: rgb(133, 132, 221);
+  font-size: 5.5rem;
+  color: rgb(92 65 102);
+  line-height: 19vh;
   text-align: center;
+  font-family: "Amatic SC", cursive;
 }
 .about_projects {
   text-align: center;
