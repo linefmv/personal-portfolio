@@ -121,8 +121,11 @@ main:not(.entranceIMG) {
 }
 .entranceIMG {
   margin: 3vh;
-  width: 47vh;
+  width: 53vh;
   height: auto;
+  background-color: rgb(200, 159, 238);
+  border-radius: 10px 100px / 120px;
+  padding: 3vh;
 }
 /* projects */ 
 .starprojects { 
