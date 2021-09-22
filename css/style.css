@@ -330,7 +330,7 @@ header h3 {
 
 /* projects */
 #projectsDevelopement {
-  background-color: rgb(255 235 187);
+  background-color: black;
 }
 
 .starprojects {
@@ -344,6 +344,7 @@ header h3 {
   text-align: center;
   margin-bottom: 20px;
   font: 1.5rem;
+  color: rgb(255 235 187);
 }
 
 #projects {
@@ -361,10 +362,10 @@ header h3 {
 
 .projects__link:hover {
   border: 0;
-  opacity: 0.4;
+  opacity: 0.5;
   transition: 0.4s linear;
-  background-color: rgb(20, 17, 230);
-  transform: scale(1.2);
+  background-color: rgb(92 65 102);
+  transform: scale(1.1);
 }
 
 .projects__link {
@@ -396,10 +397,10 @@ header h3 {
 
 .projects__titulo {
   border-top: 1px solid rgb(228, 216, 216);
-  color: rgb(133, 132, 221);
+  color: rgb(92 65 102);
 }
 .projects__subtitulo {
-  color: rgb(80, 79, 79);
+  color: rgb(248, 245, 245);
 }
 
 /* Redes Sociais*/
