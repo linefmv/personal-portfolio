@@ -125,6 +125,7 @@ header h3 {
   margin-top: 0;
   font-family: "Amatic SC", cursive;
   font-size: 5rem;
+  color: #5c4166;
 }
 
 .hexa {
@@ -331,6 +332,7 @@ header h3 {
 #projectsDevelopement {
   background-color: rgb(255 235 187);
 }
+
 .starprojects {
   font-size: 5.5rem;
   color: rgb(92 65 102);
